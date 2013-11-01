@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="16c3d482-1481-488c-b536-ae97cbd7a90b" Version="1.0" />
+  <Properties>
+    <DisplayName>Match</DisplayName>
+    <Description>Can you guess who all the WWF superstars are ? Match the superstar to his name and complete the game. Be careful - if you guess wrong and drag the name of a superstar to the wrong superstar, you will lose.</Description>
+    <PublisherDisplayName>Ankur Prasad</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Match" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Can you guess who all the WWF superstars are ? Match the superstar to his name and complete the game. Be careful - if you guess wrong and drag the name of a superstar to the wrong superstar, you will lose." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+	
+  </Capabilities>
+</Package>
